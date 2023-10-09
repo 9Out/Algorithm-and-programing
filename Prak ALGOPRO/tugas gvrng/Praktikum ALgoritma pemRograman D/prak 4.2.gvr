@@ -1,0 +1,13 @@
+do 3:
+	move
+	turnleft
+	do 3: 
+		move
+	pickbeeper
+	turnleft
+	turnleft
+	do 3:
+		move
+	turnleft
+	move
+turnoff

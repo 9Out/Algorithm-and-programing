@@ -1,0 +1,32 @@
+define taruh:
+	move
+	move
+	turnleft
+	move
+	putbeeper
+define putar:
+	turnleft
+	turnleft
+	move
+define jalur:
+	taruh
+	putar
+	turnleft
+	move
+jalur
+jalur
+jalur
+turnleft
+putar
+turnleft
+putar
+turnleft
+move
+putbeeper
+putar
+turnleft
+move
+jalur
+jalur
+move
+turnoff

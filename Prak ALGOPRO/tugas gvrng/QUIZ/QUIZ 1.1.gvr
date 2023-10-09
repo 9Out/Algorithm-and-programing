@@ -1,0 +1,24 @@
+turnleft
+move
+do 3:
+	turnleft
+move
+while next_to_a_beeper:
+	pickbeeper
+do 3:
+	turnleft
+if left_is_blocked:
+	move
+else:
+	turnleft
+move
+move
+turnleft
+move
+move
+move
+turnleft
+do 4:
+	move
+while any_beepers_in_beeper_bag:
+	putbeeper

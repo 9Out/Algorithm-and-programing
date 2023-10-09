@@ -1,0 +1,11 @@
+move
+turnleft
+while right_is_blocked:
+	if front_is_clear:
+		move
+	else:
+		turnleft
+do 3:
+	turnleft
+move
+turnoff

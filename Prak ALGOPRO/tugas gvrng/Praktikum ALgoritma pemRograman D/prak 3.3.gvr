@@ -1,0 +1,94 @@
+define move4:
+	move
+	move
+	move
+	move
+define right:
+	turnleft
+	turnleft
+	turnleft
+define move5:
+	move4
+	move
+	putbeeper
+define movebep:
+	move4
+	putbeeper
+define jatuh:
+	move
+	putbeeper	
+	move
+	putbeeper	
+	move
+	putbeeper	
+define moveR:
+	right
+	move
+	right
+	move
+	putbeeper
+define jamo:
+	jatuh
+	move
+define move3:
+	move
+	move
+	move
+	putbeeper
+jamo
+jamo
+jatuh
+turnleft
+move
+putbeeper
+turnleft
+movebep
+move5
+move
+moveR
+move5
+movebep
+turnleft
+move
+putbeeper
+turnleft
+movebep
+move5
+move
+moveR
+move5
+movebep
+turnleft
+move
+putbeeper
+turnleft
+move
+putbeeper
+move
+putbeeper
+move
+jatuh
+move3
+move
+moveR
+move3
+movebep
+move
+move
+turnleft
+move
+turnleft
+move
+move
+putbeeper
+movebep
+move3
+move
+putbeeper
+moveR
+move
+move
+jamo
+jatuh
+move
+turnoff
