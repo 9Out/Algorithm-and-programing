@@ -1,0 +1,14 @@
+do 3:
+	move
+	turnleft
+	do 3: 
+		move
+		if next_to_a_beeper:
+			pickbeeper
+	turnleft
+	turnleft
+	do 3:
+		move
+	turnleft
+	move
+turnoff

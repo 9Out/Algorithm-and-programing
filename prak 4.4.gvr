@@ -1,0 +1,21 @@
+do 7:
+	move
+	if next_to_a_beeper:
+		pickbeeper
+	do 3:
+		turnleft
+	do 4:
+		move
+		if next_to_a_beeper:
+			pickbeeper
+	turnleft
+	turnleft
+	do 4:
+		move
+	do 3:
+		turnleft
+turnleft
+turnleft
+do 7:
+	move
+turnoff

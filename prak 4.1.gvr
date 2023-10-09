@@ -1,0 +1,12 @@
+move
+do 3:
+	turnleft
+do 4:
+	do 4:
+		move
+	if front_is_blocked:
+		putbeeper
+		turnleft
+putbeeper
+move
+turnoff
